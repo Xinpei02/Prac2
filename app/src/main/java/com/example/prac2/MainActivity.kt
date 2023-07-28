@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 //        val editText: EditText = findViewById(R.id.nickname_edit)
 //        val nicknameTextView = findViewById<TextView>(R.id.nickname_text)
         binding.apply {
-//            nicknameText.text = nicknameEdit.text.toString()
+//            niacknameText.text = nicknameEdit.text.toString()
             myName?.nickname = nicknameEdit.text.toString()
             invalidateAll()
             nicknameEdit.visibility = View.GONE
